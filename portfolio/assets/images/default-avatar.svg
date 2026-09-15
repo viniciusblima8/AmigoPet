@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="75" cy="75" r="75"/>
+    </clipPath>
+  </defs>
+  <!-- Background Circle (Instagram Dark Mode style) -->
+  <circle cx="75" cy="75" r="75" fill="#262626"/>
+  
+  <g clip-path="url(#circleClip)">
+    <!-- Head -->
+    <circle cx="75" cy="54" r="26" fill="#8e8e8e"/>
+    <!-- Body / Torso -->
+    <path d="M75 88 c -30 0, -52 15, -53 48 c 14.5 14.5, 34.5 22, 53 22 s 38.5 -7.5, 53 -22 c -1 -33, -23 -48, -53 -48 z" fill="#8e8e8e"/>
+  </g>
+</svg>
